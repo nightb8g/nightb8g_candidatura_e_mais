@@ -14,5 +14,6 @@ namespace candiatura_e_mais_2019_2020.Data
         {
 
         }
+        public DbSet<candiatura_e_mais_2019_2020.Models.Notification> Notification { get; set; }
     }
 }
