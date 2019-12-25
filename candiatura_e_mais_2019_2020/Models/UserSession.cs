@@ -14,7 +14,5 @@ namespace candiatura_e_mais_2019_2020.Models {
         [PersonalData, Required(ErrorMessage = "Campo obrigatório")]
         [StringLength(255, MinimumLength=3, ErrorMessage="O nome não pode ser superior a {0} ou inferior a {1} letras")]
         public string Name { get; set; }
-
-        public int Phone { get; set; }
     }
 }
