@@ -87,7 +87,12 @@ namespace candiatura_e_mais_2019_2020.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new UserSession { CodeIPS = Input.CodeIPS, UserName = Input.Email, Email = Input.Email };
+                var user = new UserSession { 
+                    CodeIPS = Input.CodeIPS, 
+                    Name=Input.Name, 
+                    UserName = Input.Email, 
+                    Email = Input.Email 
+                };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
