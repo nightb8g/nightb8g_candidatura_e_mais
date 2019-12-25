@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "candiatura_e_mais_2019_2020", "candiatura_e_mais_2019_2020.csproj", "{2F40721B-6402-4D0C-81B5-83699F92F1DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "candiatura_e_mais_2019_2020", "candiatura_e_mais_2019_2020.csproj", "{2F40721B-6402-4D0C-81B5-83699F92F1DB}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Notificacoes", "..\Notificacoes\Notificacoes.njsproj", "{1C497A45-CCF0-4D8A-B405-1AE9A30A0CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2F40721B-6402-4D0C-81B5-83699F92F1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F40721B-6402-4D0C-81B5-83699F92F1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F40721B-6402-4D0C-81B5-83699F92F1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C497A45-CCF0-4D8A-B405-1AE9A30A0CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C497A45-CCF0-4D8A-B405-1AE9A30A0CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C497A45-CCF0-4D8A-B405-1AE9A30A0CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C497A45-CCF0-4D8A-B405-1AE9A30A0CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

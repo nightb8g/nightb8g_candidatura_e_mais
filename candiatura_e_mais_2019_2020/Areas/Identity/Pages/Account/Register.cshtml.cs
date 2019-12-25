@@ -89,7 +89,7 @@ namespace candiatura_e_mais_2019_2020.Areas.Identity.Pages.Account
             {
                 var user = new UserSession { 
                     CodeIPS = Input.CodeIPS, 
-                    Name=Input.Name, 
+                    Name = Input.Name, 
                     UserName = Input.Email, 
                     Email = Input.Email 
                 };
